@@ -150,14 +150,18 @@ main{
 
 /* ESTILOS DE FOOTER */
 
-.iframe{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-content: center;
-}
 
 h2{
    
     text-align: center;
 
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+body{
+    background-color: tomato;
+}
+    
 }
