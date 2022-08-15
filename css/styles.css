@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color:#FFE6E6  ; 
+   height: 1000px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+
+
+header h1{
+   margin-bottom: 20px;
+   font-weight: bold;
+   font-size: 60px;
+   font-family: 'Fredoka One', cursive;
+   
+}
+
+header nav ul{
+display: flex;
+column-gap: 80px;
+}
+
+header nav ul li{
+    list-style: none;
+    background-color:#F2D1D1;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+
+} 
+
+
+/* ESTILO FORMULARIO */
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #F2D1D1;
+    font-weight: bold;
+}
+
+.nombre{
+   background-color: #F2D1D1;
+   width: 305px;
+   margin-bottom: 5px;
+}
+
+.email{
+    background-color: #F2D1D1;
+    width: 295px;
+    margin-bottom: 5px;
+}
+
+.telefono{
+    background-color: #F2D1D1;
+    width: 355px;
+    margin-bottom: 5px;
+}
+
+.partido{
+    background-color: #F2D1D1;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.submit{
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS GALERÍA */
+
+
+
+
+
+/* ESTILOS DEL MAIN */
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:1.5fr 1fr 1fr 0.5fr ;
+    grid-template-areas: 
+                        "main-p main-p"
+                        "img-carrito img-casa"
+                        "img-instagram img-wpp"
+                        "parrafo parrafo";
+                        justify-content: center;
+                        align-items: center;
+                        justify-items: center;
+}
+
+.img-correo{
+    display: none;
+}
+
+.main-p{
+   grid-area: main-p;
+}
+.img-carrito{
+    grid-area: img-carrito;
+ }
+ .img-casa{
+    grid-area: img-casa;
+ }
+ .img-instagram{
+    grid-area: img-instagram;
+ }
+ .img.wpp{
+    grid-area: img-wpp;
+ }
+ .parrafo{
+    grid-area: parrafo;
+ }
+
+
+
+
+
+
+/* ESTILOS DE FOOTER */
+
+.iframe{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-content: center;
+}
+
+h2{
+   
+    text-align: center;
+
+}
