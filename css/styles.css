@@ -5,9 +5,12 @@
 }
 
 body{
-   background-color:#FFE6E6  ; 
+    background-image: linear-gradient(to bottom ,#FFF9CA , #fcfcfc );
+   background-color:#FFF9CA ; 
    height: 1000px;
 }
+
+
 
 header{
     display: flex;
@@ -39,9 +42,52 @@ header nav ul li{
     border-radius: 25px;
     font-weight: bold;
     margin-bottom: 20px;
-
-
+    
 } 
+
+header nav ul li:hover{
+    background-color: #FFC4C4;
+    transform: scale(1.5);
+    
+}
+
+.algodon{
+    height: 50px;
+    width: 15px;
+
+}
+
+/* ESTILOS DEL MAIN */
+
+.pochoclo{
+
+    margin-left: 800px;
+}
+
+.escalar{
+    animation-name: escalar;
+    animation-duration: 15s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes escalar{
+    from{
+        transform: scale(0);
+
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.main-p{
+    background-color: #FFC4C4 ;
+    text-align: center;
+    margin-top: 15px;
+}
+
 
 
 /* ESTILO FORMULARIO */
@@ -84,70 +130,6 @@ header nav ul li{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CSS GALERÍA */
-
-
-
-
-
-/* ESTILOS DEL MAIN */
-
-main{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows:1.5fr 1fr 1fr 0.5fr ;
-    grid-template-areas: 
-                        "main-p main-p"
-                        "img-carrito img-casa"
-                        "img-instagram img-wpp"
-                        "parrafo parrafo";
-                        justify-content: center;
-                        align-items: center;
-                        justify-items: center;
-}
-
-.img-correo{
-    display: none;
-}
-
-.main-p{
-   grid-area: main-p;
-}
-.img-carrito{
-    grid-area: img-carrito;
- }
- .img-casa{
-    grid-area: img-casa;
- }
- .img-instagram{
-    grid-area: img-instagram;
- }
- .img.wpp{
-    grid-area: img-wpp;
- }
- .parrafo{
-    grid-area: parrafo;
- }
-
-
-
-
-
-
 /* ESTILOS DE FOOTER */
 
 
@@ -161,7 +143,7 @@ h2{
 
 @media screen and (min-width: 600px) {
 body{
-    background-color: tomato;
+    
 }
     
 }
