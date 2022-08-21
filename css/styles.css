@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom ,#FFF9CA , #fcfcfc );
+   background-image: linear-gradient(to bottom ,#FFF9CA , #fcfcfc );
    background-color:#FFF9CA ; 
    height: 1000px;
 }
@@ -51,36 +51,9 @@ header nav ul li:hover{
     
 }
 
-.algodon{
-    height: 50px;
-    width: 15px;
 
-}
 
 /* ESTILOS DEL MAIN */
-
-.pochoclo{
-
-    margin-left: 800px;
-}
-
-.escalar{
-    animation-name: escalar;
-    animation-duration: 15s ;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes escalar{
-    from{
-        transform: scale(0);
-
-    }
-
-    to{
-        transform: scale(1.1);
-    }
-}
 
 .main-p{
     background-color: #FFC4C4 ;
@@ -88,6 +61,9 @@ header nav ul li:hover{
     margin-top: 15px;
 }
 
+.parrafo{
+    text-align: center;
+}
 
 
 /* ESTILO FORMULARIO */
@@ -141,9 +117,4 @@ h2{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 600px) {
-body{
-    
-}
-    
-}
+
